@@ -10,6 +10,7 @@
 		5919E6BB2A4204670095C057 /* exportOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5919E6BA2A4204670095C057 /* exportOptions.plist */; };
 		592590552A488A8800127377 /* CatsAndModules_ValeriiaIvanenkoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592590542A488A8800127377 /* CatsAndModules_ValeriiaIvanenkoUITests.swift */; };
 		592BC1012A2FCE5A001132E6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 592BC1002A2FCE5A001132E6 /* GoogleService-Info.plist */; };
+		5938657B2A48B2BB00D2CD0A /* codemagic.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 5938657A2A48B2BB00D2CD0A /* codemagic.yaml */; };
 		5956B1432A488CD0001F2092 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5956B1422A488CD0001F2092 /* SnapshotHelper.swift */; };
 		59B2F7A52A2FC32900511FA7 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 59B2F7A42A2FC32900511FA7 /* FirebaseAnalytics */; };
 		59B2F7A72A2FC32900511FA7 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 59B2F7A62A2FC32900511FA7 /* FirebaseAnalyticsWithoutAdIdSupport */; };
@@ -60,6 +61,7 @@
 		592590522A488A8800127377 /* CatsAndModules_ValeriiaIvanenkoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatsAndModules_ValeriiaIvanenkoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		592590542A488A8800127377 /* CatsAndModules_ValeriiaIvanenkoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsAndModules_ValeriiaIvanenkoUITests.swift; sourceTree = "<group>"; };
 		592BC1002A2FCE5A001132E6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5938657A2A48B2BB00D2CD0A /* codemagic.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = codemagic.yaml; sourceTree = "<group>"; };
 		5956B1422A488CD0001F2092 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
 		59D89D642A2623C600A97DCB /* CatsAndModules_ValeriiaIvanenko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatsAndModules_ValeriiaIvanenko.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59D89D672A2623C600A97DCB /* CatsAndModules_ValeriiaIvanenkoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsAndModules_ValeriiaIvanenkoApp.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				592BC1002A2FCE5A001132E6 /* GoogleService-Info.plist */,
 				5919E6BA2A4204670095C057 /* exportOptions.plist */,
 				59D89D6D2A2623C600A97DCB /* Preview Content */,
+				5938657A2A48B2BB00D2CD0A /* codemagic.yaml */,
 			);
 			path = CatsAndModules_ValeriiaIvanenko;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5938657B2A48B2BB00D2CD0A /* codemagic.yaml in Resources */,
 				59D89D6F2A2623C600A97DCB /* Preview Assets.xcassets in Resources */,
 				59D89D6C2A2623C600A97DCB /* Assets.xcassets in Resources */,
 				592BC1012A2FCE5A001132E6 /* GoogleService-Info.plist in Resources */,
