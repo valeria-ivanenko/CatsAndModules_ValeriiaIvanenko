@@ -1,0 +1,20 @@
+workflows:
+  my-workflow:
+    name: My Workflow
+    triggering:
+      events:
+        - push
+      branch_patterns:
+        - pattern: release_ValeriiaIvanenko
+          include: true
+        - pattern: '*'
+          include: false
+    environment:
+      vars:
+        # Define your environment variables here
+    scripts:
+      # Define the scripts for your build process here
+    artifacts:
+      # Define the paths to your build artifacts here
+    publishing:
+      # Define your publishing settings here
