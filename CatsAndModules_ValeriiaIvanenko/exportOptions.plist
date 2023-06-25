@@ -8,6 +8,8 @@
 	<string>development</string>
 	<key>signingStyle</key>
 	<string>manual</string>
+	<key>compileBitcode</key>
+	<bool>false</bool>
 	<key>teamID</key>
 	<string>VNU8KKW4GG</string>
 	<key>signingCertificate</key>
