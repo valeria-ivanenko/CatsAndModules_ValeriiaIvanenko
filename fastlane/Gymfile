@@ -1,0 +1,15 @@
+# For more information about this configuration visit
+# https://docs.fastlane.tools/actions/gym/#gymfile
+
+# In general, you can use the options available
+# fastlane gym --help
+clean(true)
+project("CatsAndModules_ValeriiaIvanenko.xcodeproj")
+scheme("CatsAndModules_ValeriiaIvanenko")
+destination("generic/platform=iOS")
+export_method("development")
+export_options("./CatsAndModules_ValeriiaIvanenko/exportOptions.plist")
+
+archive_path("./Archives/app.xcarchive")
+
+output_directory("./output")
