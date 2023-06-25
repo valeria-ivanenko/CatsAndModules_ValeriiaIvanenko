@@ -5,7 +5,7 @@ workflows:
       events:
         - push
       branch_patterns:
-        - pattern: release_ValeriiaIvanenko
+        - pattern: 'release_ValeriiaIvanenko'
           include: true
         - pattern: '*'
           include: false
@@ -14,4 +14,4 @@ workflows:
         - fastlane
     scripts:
         - bundle install
-        - bundle exec fastlane build_and_export animal:"CATS"
+        - bundle exec fastlane build_and_export animal:'CATS'
