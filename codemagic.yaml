@@ -8,7 +8,7 @@ workflows:
         - pattern: 'release_ValeriiaIvanenko'
           include: true
         - pattern: '*'
-          include: false
+          include: true
     environment:
       groups:
         - fastlane
