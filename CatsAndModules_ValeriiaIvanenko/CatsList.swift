@@ -50,6 +50,7 @@ struct CatsList: View {
         Button("Crash") {
             fatalError("Crash was triggered")
         }
+        // some edit
     }
 }
 
