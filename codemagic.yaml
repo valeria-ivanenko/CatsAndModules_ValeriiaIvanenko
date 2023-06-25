@@ -14,4 +14,4 @@ workflows:
         - fastlane
     scripts:
         - bundle install
-        - bundle exec fastlane build_and_export animal:'CATS'
+        - bundle exec fastlane build_and_export animal:"CATS"
