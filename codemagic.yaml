@@ -10,11 +10,8 @@ workflows:
         - pattern: '*'
           include: false
     environment:
-      vars:
-        # Define your environment variables here
+      groups:
+        - fastlane
     scripts:
-      # Define the scripts for your build process here
-    artifacts:
-      # Define the paths to your build artifacts here
-    publishing:
-      # Define your publishing settings here
+        - bundle install
+        - bundle exec fastlane build_and_export animal:"CATS"
